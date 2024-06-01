@@ -1,0 +1,69 @@
+Imp Points while working with React:
+
+-> 'class' is a reserved keyword in JS, so we use className instead to give CSS.
+-> We can give inline style using style = {{'fontSize': '24px'}}. Note that the CSS names are converted to camelCase.
+-> {} is used inside JSX for string interpolation
+-> React router is installed using the react-router-dom package; we use the following components from it:
+1) RouterProvider: This is main provider html element which is put in App.jsx along with the router attribute passed.
+2) router obj is required which is created using createBrowserRouter and createRoutesFromElements.
+3) createBrowserRouter is a function to which we pass createRoutesFromElements made of Route and elements they correspond to.
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />
+    </Route>,
+  ),
+)
+
+here, note that we declare the main route with path and for this a common layout is used.
+And each element is imported and passed as JSX element.
+
+Inside MainLayout we can get all the pages like HomePage that we have passed with the Outlet component.
+
+-> While routing between pages we can directly pass routes like /jobs etc, no html page path needed. Also,
+when we use the links in anchor tag, it will still cause a page refresh. For it to be truly SPA, we can use 
+react router Link, to switch the pages, without page refresh. 
+
+Alternatively, we can also use the NavLink component from router, which will give us {isActive} attribute to do conditional
+styling of the navlinks based on which route is currently being shown.
+
+-> While dealing with forms in React, the new version v19 and above will support the form actions kind of similar to what
+NextJS does. It also might support server actions and use server out of the box. 
+
+The other effective way of getting the form elements, especially when they are big in number is using formData by giving "onSubmit={validateForm}".
+
+Now in the validateForm function we can prevent the default behavior and extract all the form data using:
+const form  = e.currentTarget
+const formData = new FormData(form)
+
+-> However, formData return an iterator, where in we can get individual fields using .get and all the fields in reqBody using:
+Object.fromEntries(formData.entries())
+
+These fields are accessible using the name property of the input fields, so if we don't give that then it will be empty.
+
+We can reset the form at the end using:
+form.reset()
+
+-> While making service calls, we often use useEffect hook with empty [] dependency array to make sure it can only be called once. 
+However, even then in strict mode or when there are other state variables in the code, the code is often re-run twice leading to >= 2 service calls.
+
+To avoid that we can use refs: 
+const hasFetchedJobs = useRef(false)
+
+and in useEffect:
+if (!hasFetchedJobs.current) {
+      setShowSpinner(true)
+      fetchJobs()
+      hasFetchedJobs.current = true
+}
+
+-> Coming to the folder structure there are different ways to do it but an accepted standard of doing things is as below:
+
+ - keep all the react files with .jsx syntax and maybe you can use react arrow export component (rafce), don't use class based.
+ - keep the App and main files clean apart from things like importing css (in main) and configuring routers etc (in the App file)
+ - use a dedicated router folder and file for setting up the routes with components and layouts.
+ - Layouts should have things like header and footer and that should wrap the other outlet components.
+ - by default use pages to link the routes which in turn can contain components for actual buttons, forms etc.
+ - Try moving all the service calls to services folder to make the axios requests, which can be handled with try catch in the component.
+ - Make the react components reusable as much as possible, and you can customize it by passing props to them.

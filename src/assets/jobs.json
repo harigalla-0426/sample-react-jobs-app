@@ -1,0 +1,139 @@
+{
+  "jobs": [
+    {
+      "jobID": "1",
+      "jobTitle": "Senior React Developer",
+      "jobType": "Full-Time",
+      "jobIntro": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+      "jobLocation": "Boston, MA",
+      "jobSalary": "$70K - $80K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "1348"
+    },
+    {
+      "jobID": "2",
+      "jobTitle": "Front-End Engineer (React & Redux)",
+      "jobType": "Full-Time",
+      "jobLocation": "Miami, FL",
+      "jobIntro": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "jobSalary": "$70K - $80K",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+        "contactEmail": "contact@loremipsum.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "ef4d"
+    },
+    {
+      "jobID": "3",
+      "jobTitle": "React.js Dev",
+      "jobType": "Full-Time",
+      "jobLocation": "Brooklyn, NY",
+      "jobIntro": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "jobSalary": "$70K - $80K",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+        "contactEmail": "contact@dolorsitamet.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "b89b"
+    },
+    {
+      "jobID": "4",
+      "jobTitle": "React Front-End Developer",
+      "jobType": "Part-Time",
+      "jobIntro": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "jobLocation": "Pheonix, AZ",
+      "jobSalary": "$60K - $70K",
+      "company": {
+        "name": "Alpha Elite",
+        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
+        "contactEmail": "contact@adipisicingelit.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "ab72"
+    },
+    {
+      "jobID": "5",
+      "jobTitle": "Full Stack React Developer",
+      "jobType": "Full-Time",
+      "jobIntro": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "jobLocation": "Atlanta, GA",
+      "jobSalary": "$90K - $100K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "239a"
+    },
+    {
+      "jobID": "6",
+      "jobTitle": "React Native Developer",
+      "jobType": "Full-Time",
+      "jobIntro": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "jobLocation": "Portland, OR",
+      "jobSalary": "$100K - $110K",
+      "company": {
+        "name": "Port Solutions INC",
+        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
+        "contactEmail": "contact@ipsumlorem.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "99b3"
+    },
+    {
+      "id": "0f74",
+      "jobTitle": "NextJS Developer",
+      "jobType": "Full-Time",
+      "jobIntro": "Join our team as a Full-stack Developer in beautiful Chicago, IL. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "jobLocation": "Chicago, IL",
+      "jobSalary": "$120K - $130K",
+      "company": {
+        "name": "US Bank",
+        "description": "At U.S. Bank, we help millions of clients achieve their goals with a balance of best-in-class technology and human expertise tailored to individual needs. As the fifth-largest commercial bank in the United States, we’ve built a reputation for strength and stability across a diversified mix of businesses, including commercial and institutional banking, business banking, payments, wealth management and consumer banking.",
+        "contactEmail": "contact@usbank.com",
+        "contactPhone": "888-888-8888"
+      },
+      "jobID": 7
+    },
+    {
+      "id": "9320",
+      "jobTitle": "NextJS Developer (3+ Years)",
+      "jobType": "Hybrid",
+      "jobIntro": "Join our team as a Full-stack Developer in beautiful Chicago, IL. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "jobLocation": "Chicago, IL",
+      "jobSalary": "$130K - $140K",
+      "company": {
+        "name": "US Bank",
+        "description": "At U.S. Bank, we help millions of clients achieve their goals with a balance of best-in-class technology and human expertise tailored to individual needs. As the fifth-largest commercial bank in the United States, we’ve built a reputation for strength and stability across a diversified mix of businesses, including commercial and institutional banking, business banking, payments, wealth management and consumer banking.",
+        "contactEmail": "contact@usbank.com",
+        "contactPhone": "888-888-8888"
+      },
+      "jobID": 8
+    },
+    {
+      "id": "848f",
+      "jobID": 9,
+      "jobTitle": "Senior NextJS Developer",
+      "jobIntro": "Join our team as a Senior Expert NextJS Developer in beautiful Chicago, IL. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "jobLocation": "Chicago, IL",
+      "jobType": "Hybrid",
+      "jobSalary": "$140K - $150K",
+      "company": {
+        "name": "US Bank",
+        "description": "At U.S. Bank, we help millions of clients achieve their goals with a balance of best-in-class technology and human expertise tailored to individual needs. As the fifth-largest commercial bank in the United States, we’ve built a reputation for strength and stability across a diversified mix of businesses, including commercial and institutional banking, business banking, payments, wealth management and consumer banking.",
+        "contactEmail": "contact@usbank.com",
+        "contactPhone": "888-888-8888"
+      }
+    }
+  ]
+}
